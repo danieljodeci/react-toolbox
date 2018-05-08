@@ -106,6 +106,7 @@
     "lint:staged": "lint-staged",
     "patch": "bumped release patch",
     "prebuild": "npm run clean",
+    "prepare": "npm run build",
     "prepublish": "npm run build",
     "release": "bumped release",
     "sass": "cpx \"./components/**/*.scss\" ./lib",
