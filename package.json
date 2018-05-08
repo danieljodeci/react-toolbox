@@ -115,6 +115,7 @@
     "lint:staged": "lint-staged",
     "patch": "bumped release patch",
     "prebuild": "npm run clean",
+    "prepare": "npm run build",
     "prepublish": "npm run build",
     "release": "bumped release",
     "start": "cross-env NODE_ENV=development UV_THREADPOOL_SIZE=100 node ./server",
