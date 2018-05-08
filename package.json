@@ -72,8 +72,8 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production gulp",
     "clean": "rimraf ./lib",
-    "prepublish": "yarn run build",
-    "prepare": "yarn run build"
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
   },
   "version": "2.0.0-beta.12"
 }
